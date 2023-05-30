@@ -1,4 +1,4 @@
-library(MASS)
+lilibrary(MASS)
 makeCacheMatrix <- function(x = matrix()) {
   inv<-NULL
   set<-function(y){
@@ -26,5 +26,3 @@ cacheSolve<- function(x, ....)
   x$setinv(inv)
   inv
 }
-
-
